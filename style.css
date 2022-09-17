@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body
+{
+    background: #F0EFEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+ .page
+ {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 45px 55px rgba(0, 0, 0, 0.2);
+ }
+ .page .left
+ {
+    position: relative;
+    background: #E9CCB1;
+    padding: 40px;
+ }
+ .page .right
+ {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+ }
