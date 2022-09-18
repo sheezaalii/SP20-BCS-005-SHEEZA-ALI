@@ -1,41 +1,174 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins',sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
-body
-{
-    background: #F0EFEB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-
+body {
+  background: #f0efeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
- .page
- {
-    position: relative;
-    max-width: 1000px;
-    width: 100%;
-    min-height: 1000px;
-    margin: 50px;
-    background: #fff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 45px 55px rgba(0, 0, 0, 0.2);
- }
- .page .left
- {
-    position: relative;
-    background: #E9CCB1;
-    padding: 40px;
- }
- .page .right
- {
-    position: relative;
-    background: rgb(255, 255, 255);
-    padding: 40px;
- }
+.page {
+  position: relative;
+  max-width: 1000px;
+  width: 100%;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 45px 55px rgba(0, 0, 0, 0.2);
+}
+.page .left {
+  position: relative;
+  background: #e9ccb1;
+  padding: 40px;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(131, 105, 83, 0.3);
+}
+
+.profile .image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile .image img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+  color: #584431;
+}
+
+.profile h2 span {
+  font-size: 0.7em;
+  font-weight: 300;
+  color: #836953;
+}
+
+.contact {
+  padding-top: 30px;
+}
+
+.title {
+  color: #55412e;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.contact ul li {
+  list-style: none;
+  position: relative;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.contact ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 20px;
+  color: #6d5239;
+}
+
+.contact ul li span {
+  font-weight: 300;
+  color: #836953;
+}
+
+.education {
+  padding-top: 10px;
+}
+
+.education ul li {
+  list-style: none;
+  position: relative;
+  margin: 20px 0;
+}
+
+.education ul li h4:nth-child(2) {
+  font-size: 17px;
+  color: #7e5f42;
+  font-weight: 600;
+}
+
+.education ul li h4 {
+  font-size: 17px;
+  color: #6d5239;
+  font-weight: 300;
+}
+
+.education ul li h5 {
+  font-weight: 530;
+  color: #836953;
+  padding-bottom: 5px;
+}
+
+.language .percent {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #745940b6;
+  display: block;
+  margin-top: 2px;
+}
+
+.language .percent div {
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #d4a579;
+}
+
+.language ul li {
+  list-style: none;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.language .text {
+  font-size: 15px;
+  color: #6d5239;
+  font-weight: 450;
+}
+
+.page .right {
+  position: relative;
+  background: #fcfcfc;
+  padding: 40px;
+}
+
+.linee {
+  height: 1100px;
+  width: 2px;
+  background-color: #94795f;
+  padding-right: 1px;
+  margin-top: 5px;
+}
