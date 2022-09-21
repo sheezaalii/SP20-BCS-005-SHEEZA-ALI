@@ -16,12 +16,12 @@ body {
   position: relative;
   max-width: 1000px;
   width: 100%;
-  min-height: 800px;
+  min-height: 700px;
   margin: 50px;
   background: #fff;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 45px 55px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 45px 55px rgba(0, 0, 0, 0.3);
 }
 .page .left {
   position: relative;
@@ -172,7 +172,7 @@ body {
   margin-bottom: 50px;
 }
 .title2 {
-  color: #916740;
+  color: #aa7442;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -217,21 +217,21 @@ p {
 
 .skills .box h4 {
   text-transform: uppercase;
-  font-weight: 500;
-  color: #916740;
+  font-weight: 550;
+  color: #a7794f;
 }
 
 .skills .box .percent {
   position: relative;
   width: 100%;
   height: 10px;
-  background: #745940b6;
+  background: #aca8a659;
 }
 .skills .box .percent div {
   top: 0;
   left: 0;
   height: 100%;
-  background: #d4a579;
+  background: #da9a5ed2;
 }
 
 .interest ul {
@@ -246,7 +246,7 @@ p {
 }
 
 .interest ul li .fa {
-  color: #584431;
-  font-size: 18px;
-  width: 2px;
+  color: #966a41;
+  font-size: 25px;
+  padding-right: 13px;
 }
