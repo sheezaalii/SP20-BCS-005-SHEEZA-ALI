@@ -164,7 +164,7 @@ body {
 
 .page .right {
   position: relative;
-  background: #fcfcfc;
+  background: #ffffff;
   padding: 40px;
 }
 
@@ -172,7 +172,7 @@ body {
   margin-bottom: 50px;
 }
 .title2 {
-  color: #aa7442;
+  color: rgb(88, 68, 49);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -193,7 +193,7 @@ p {
 }
 .about .box .year h5 {
   text-transform: uppercase;
-  color: #a57140;
+  color: rgb(131, 105, 83);
   font-weight: 520;
 }
 .about .box .year .ok {
@@ -203,7 +203,7 @@ p {
 
 .about .box .text h4 {
   text-transform: uppercase;
-  color: #b67b45;
+  color: rgb(131, 105, 83);
   font-size: 15px;
 }
 .skills .box {
@@ -218,7 +218,7 @@ p {
 .skills .box h4 {
   text-transform: uppercase;
   font-weight: 550;
-  color: #a7794f;
+  color: #6d5239;
 }
 
 .skills .box .percent {
@@ -231,7 +231,7 @@ p {
   top: 0;
   left: 0;
   height: 100%;
-  background: #da9a5ed2;
+  background: #8b6c4e9c;
 }
 
 .interest ul {
