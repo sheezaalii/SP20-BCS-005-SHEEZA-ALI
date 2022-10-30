@@ -25,6 +25,14 @@
   margin: auto;
 }
 
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mx-2 {
+  padding: 0 25px;
+}
+
 .form-input {
   margin: 0 13px;
   padding: 0 5px;
@@ -36,7 +44,7 @@
 .btn {
   padding: 1px 14px;
   border: 1px solid black;
-  margin: 0 11px;
+  margin: 0 1px;
   border-radius: 6px;
   font-size: 15px;
   font-family: var(--font1);
