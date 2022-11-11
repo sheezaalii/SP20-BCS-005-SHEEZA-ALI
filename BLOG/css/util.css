@@ -9,7 +9,21 @@
   --font3: "Montserrat", sans-serif;
   --font4: "Mukta", sans-serif;
 }
-
+.color h1 {
+  color: var(--main-bg-color);
+}
+.color h2 {
+  color: var(--main-bg-color);
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.font3 {
+  font-family: var(--font3);
+}
 .font4 {
   font-family: var(--font4);
 }
@@ -26,11 +40,15 @@
 }
 
 .my-2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .mx-2 {
   padding: 0 25px;
+}
+
+.lil-space {
+  padding-bottom: 5px;
 }
 
 .form-input {
@@ -55,4 +73,5 @@
 .btn:hover {
   color: white;
   background-color: var(--main-bg-color);
+  font-weight: bolder;
 }
