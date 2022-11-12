@@ -1,0 +1,24 @@
+.post-img {
+  height: 230px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.post-img img {
+  width: 100%;
+}
+.text h1 {
+  text-align: center;
+  /* color: var(--main-bg-color); */
+  font-family: var(--font3);
+}
+
+.home-articles1 {
+  background-color: #e9e5e58c;
+  padding-bottom: 5px;
+  padding-top: 12px;
+  display: flex;
+}
+.home-articles1 h2 {
+  padding-left: 20px;
+}
