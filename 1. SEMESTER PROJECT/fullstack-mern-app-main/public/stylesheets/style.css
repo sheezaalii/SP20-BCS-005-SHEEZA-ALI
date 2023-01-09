@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Mukta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+:root {
+  --main-bg-color: rgb(138, 90, 46);
+  --font1: "Baloo Bhai 2", cursive;
+  --font2: "Roboto", sans-serif;
+  --font3: "Montserrat", sans-serif;
+  --font4: "Mukta", sans-serif;
+  --font5: "Lato", sans-serif;
+}
+.body {
+  min-height: 300px;
+}
+
+.my-font {
+  font-family: var(--font1);
+  text-transform: uppercase;
+}
+.my-font-2 {
+  font-family: var(--font1);
+}
+/* -------------------TOP---------------------- */
+.top {
+  height: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar-social {
+  display: flex;
+}
+
+.navbar-social a {
+  font-size: 1.25rem;
+  color: #222222;
+  transition: color 0.2s;
+  margin-right: 0.75rem;
+}
+
+.navbar-social a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.navbar-quote {
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #635a50;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar-social {
+    display: none;
+  }
+}
+
+/* -------------------TOP---------------------- */
+
+.max-width {
+  max-width: 90vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+nav {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+nav .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-image img {
+  max-width: 300px;
+}
+
+.right {
+  display: flex;
+  align-items: end;
+}
+.right ul {
+  display: flex;
+}
+.right ul li {
+  list-style: none;
+  font-family: var(--font1);
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  /* transition: all 0.3s ease-in-out; */
+}
+.right ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+/* -----------------FOOTER------------------ */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1.2);
+  color: #222222;
+}
+
+.footer-column {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 1rem;
+}
+.footer-column .tagg {
+  color: #555555;
+}
+.footer-column a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.footer-column h4 {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #222222;
+}
+
+.social-icons a:hover {
+  color: var(--main-bg-color);
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.newsletter-form label {
+  margin-right: 0.5rem;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* -----------------FOOTER- end----------------- */
+
+/* --------------slider----------------------- */
+.pic-height {
+  margin-top: 30px;
+}
+.carousel-item {
+  background: rgb(255, 255, 255);
+  width: 70rem;
+  height: 25rem;
+  border-radius: 20px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/* --------------slider---end-------------------- */
+
+/* -------------contactus------------------ */
+.below {
+  font-family: Arial, sans-serif;
+  color: #1b1717;
+  background-color: #ffffff;
+  background-image: url("https://assets-eu-01.kc-usercontent.com/559bb7d3-88a4-01c1-79a3-dd4d5b2d2bb0/18cb6cf1-1105-4cc3-abcf-448435ee9291/Mary%20Berry%20Chocolate%20Cupcakes%20%20(14).jpg?w=3840&q=85&auto=format&lossless=1");
+  background-size: cover;
+  padding: 10px;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.contact-form {
+  max-width: 550px;
+  margin: 40px auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.contact-form h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #000000;
+}
+
+.contact-form p {
+  margin: 0 0 1rem 0;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-form .form-group {
+  margin: 0 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .form-group label {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: 1px solid rgb(231, 226, 226);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-form .btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #442607;
+}
+
+/* -------------contactus--end---------------- */
+/* -----------------Recipies--start------------------ */
+#bakery-recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.recipe-column {
+  width: 33%;
+  height: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.recipe-column img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.recipe-column h2 {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.recipe-column p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.recipe-column ol,
+.recipe-column ul {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+.recipe-column li {
+  margin: 5px 0;
+}
+
+/* -----------------Recipies-end----------------- */
+
+/* -------------------marquee tag-------------------- */
+.light-theme {
+  color: rgb(85, 57, 21);
+  background-color: #f7f7f7;
+
+  font-size: 18px;
+  padding: 10px;
+}
+.sticky {
+  position: sticky;
+  top: 40px;
+}
+/* --------------------------heading---------------------------------- */
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(32, 31, 31);
+  margin-top: 16px;
+}
+.subheading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(116, 110, 110);
+}
+
+.quote {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+a.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b2208;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a.my-button:hover {
+  background-color: var(--main-bg-color);
+  font-weight: bold;
+}
+
+
+.my-butt {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3b2208;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.my-butt:hover {
+  background-color: var(--main-bg-color);
+  font-weight: bold;
+}

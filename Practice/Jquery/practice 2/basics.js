@@ -47,7 +47,7 @@ $(function has() {
  $(function getFun() {
    $.ajax({
      type: "GET",
-     url:  "https://usman-cui-recipies.herokuap.com/api/recipes/",
+     url:  "https://usman-cui-recipies.herokuap.com/api/recipes/"+id,
      // data: "data",
      // dataType: "dataType",
      success: function (response, status) {
